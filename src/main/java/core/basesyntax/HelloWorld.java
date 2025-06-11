@@ -6,7 +6,7 @@ import java.time.LocalDate;
 
 public class HelloWorld {
     private String massage;
-    private int currentYear;
+    private int actualYear;
     private int age;
     private int size;
 
@@ -37,8 +37,8 @@ public class HelloWorld {
     private void initializeVariables() {
         massage = "Hello mates!";
         System.out.println(massage);
-        currentYear = LocalDate.now().getYear();
-        System.out.println("It is " + currentYear + "year");
+        actualYear = LocalDate.now().getYear();
+        System.out.println("It is " + actualYear + "year");
         age = 25;
         System.out.println("I'm " + age);
         size = 42;
